@@ -1,0 +1,25 @@
+---
+layout: post
+title: My first post - Let's Code
+---
+
+h1. {{ page.title }}
+
+p(meta). June 30 2015 - Helsinki
+
+A technical blog about the things I have learned and developed during my Academics and work. I intend to make this technical blog more fun by adding a story to  each post which gives a gist of the situation where my researched solution was used.I am passionate about coding but there is a ocean out there for me to learn.This blog is just a small gesture of my learning and sharing some challenges I encountered in my coding life!!
+
+Some technical topis that I might blog about are:
+* Networking Concepts
+* Cloud Computing
+* Data Mining
+* Internet of Things
+* Mobile and Wireless Communication
+* Web applications and more !!
+
+I am a great fan of Object Oriented Programming, so the codes I will be using will be of
+* Java
+* Python
+* JavaScript 
+
+I believe that everyday in life is a new experiment out of which you learn something new with each experiement!!

@@ -1,5 +1,18 @@
-<html>
-<body>
-<h1> My technical blog under construction</h1>
-</body>
-</html>
+---
+layout: default
+title: A blog about computer programs
+---
+<div id="home">
+  <table class="posts">	
+    {% for post in site.posts %}
+       <tr class="post_row">
+         <td class="date">
+           {{ post.date | date_to_string }}
+         </td>
+         <td class="post">
+           <a href="{{ post.url }}">{{ post.title }}</a>
+         </td>
+       </tr>
+    {% endfor %}
+  </table>
+</div>

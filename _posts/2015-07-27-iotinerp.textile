@@ -4,10 +4,10 @@ title: Internet of Things in Enterprise Businesses
 ---
 
 h1. {{ page.title }}
-
+<br>
 
 p(meta). July 27 2015 - Helsinki
-
+<br>
 
 Over the past decade, CEOs across industries believe technology has become the most important external factor that is impacting their organization and driving change. Technology has become vital for generating new business value and delivering new business services to capture various markets. By adopting smarter computing, CIOs of organizations are rethinking and remodeling their businesses to take advantage of Cloud computing, Internet of Things(IoT) and emerging new technologies as part of their enterprise strategies. This article presents a discussion on new technologies that are enabling and driving change in organizations.
 

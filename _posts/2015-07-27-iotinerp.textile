@@ -5,7 +5,9 @@ title: Internet of Things in Enterprise Businesses
 
 h1. {{ page.title }}
 
+
 p(meta). July 27 2015 - Helsinki
+
 
 Over the past decade, CEOs across industries believe technology has become the most important external factor that is impacting their organization and driving change. Technology has become vital for generating new business value and delivering new business services to capture various markets. By adopting smarter computing, CIOs of organizations are rethinking and remodeling their businesses to take advantage of Cloud computing, Internet of Things(IoT) and emerging new technologies as part of their enterprise strategies. This article presents a discussion on new technologies that are enabling and driving change in organizations.
 
@@ -25,7 +27,7 @@ The IoT World Forum is a global event where IoT solutions are showcases by vario
 IoT is here to stay and grow bigger and better. A day is not far when the devices are talking to eachother more that the people. Using this growing network of devices to bring innovations in enterprise solutions will drive businesses in the near future.
 
 
-References:
+<u><b>References:</b><u>
 
 Haller, Stephan, and Carsten Magerkurth. "The real-time enterprise: Iot-enabled business processes." IETF IAB Workshop on Interconnecting Smart Objects with the Internet. 2011.
 

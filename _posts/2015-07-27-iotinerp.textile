@@ -27,7 +27,7 @@ The IoT World Forum is a global event where IoT solutions are showcases by vario
 IoT is here to stay and grow bigger and better. A day is not far when the devices are talking to eachother more that the people. Using this growing network of devices to bring innovations in enterprise solutions will drive businesses in the near future.
 
 
-<u><b>References:</b><u>
+<u><b>References:</b></u>
 
 Haller, Stephan, and Carsten Magerkurth. "The real-time enterprise: Iot-enabled business processes." IETF IAB Workshop on Interconnecting Smart Objects with the Internet. 2011.
 

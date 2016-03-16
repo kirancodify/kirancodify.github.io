@@ -1,0 +1,110 @@
+---
+layout: default
+title: A blog about computer programs
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KiranCodify</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="/css/bootstrap-glyphicons.css">
+    <link rel="stylesheet" href="/css/lightbox.css">
+	<link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/font-awesome.css">
+    <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <!--link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" /-->
+
+  <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+  
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      "HTML-CSS": {
+
+        scale: 150
+        
+      }
+    });
+  </script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-th-list"></span></a>
+				<a href="/index.html" class="brand">KiranCodify</a>
+			  <div class="nav-collapse collapse">
+				<ul class="nav pull-right">
+					<!--<li><a href="#About">About</a></li>
+					<li><a href="#work">Smething</a>
+					</li>
+					<li><a href="#portfolio"></a></li> -->
+					<a href="/mainprofile.html" class="brand">About Me</a>
+				</ul>
+				</div>
+			</div>
+		</div>
+    </div>
+
+<div class="site">
+
+  <div style="clear: both;"/>
+  
+  {{ content }}
+</div>
+</div>
+<div class="container spacer">
+    <div class="row-fluid">
+	<div class="span12 well footer">
+        <div class="span4">
+            <p>&copy; 2015 <a href="./mainprofile.html#contact">Kiran Kumar</a></p>
+        </div>
+        <div class="span8 text-center">
+          <a href="https://www.facebook.com/kiran.m.kumar"><img src="/img/fb-icon.png"  class='socialmedia'/></a>		
+		  <a href="https://fi.linkedin.com/in/kiranmkumar"><img src="/img/in-icon.png"  class='socialmedia'><a>			
+		  <a href="https://github.com/kirancodify"><img src="/img/github-icon.png"  class='socialmedia'/></a>
+	          <a href="/mainprofile.html#contact"><img src="/img/mail-icon.png"  class='socialmedia'/></a>			
+		  <a href="#"><img src="/img/rss-icon.png"  class='socialmedia'/></a>			
+        </div>
+		</div>
+    </div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script> 
+<script type="text/javascript" src="/js/bootstrap.js"></script>
+<script type="text/javascript" src="/js/lightbox-2.6.min.js"></script>
+
+<script>
+$('a').click(function() {
+    var elementClicked = $(this).attr("href");
+    var destination = $(elementClicked).offset().top;
+    $("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination-15}, 1500 );
+    return false;
+});
+
+
+</script>
+	<p align="center" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+    <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a> 
+    <br>
+    Last Updated on 30th June, 2015
+    
+</p>
+  </body>
+</html>

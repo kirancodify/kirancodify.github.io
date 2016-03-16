@@ -1,0 +1,37 @@
+---
+layout: post
+title: Internet of Things in Enterprise Businesses
+---
+
+h1. {{ page.title }}
+<br>
+
+p(meta). July 27 2015 - Helsinki
+<br>
+
+Over the past decade, CEOs across industries believe technology has become the most important external factor that is impacting their organization and driving change. Technology has become vital for generating new business value and delivering new business services to capture various markets. By adopting smarter computing, CIOs of organizations are rethinking and remodeling their businesses to take advantage of Cloud computing, Internet of Things(IoT) and emerging new technologies as part of their enterprise strategies. This article presents a discussion on new technologies that are enabling and driving change in organizations.
+
+On a top level, an Enterprise solution involves a lot of business processes working in co-operation to achieve the required task. From a technical perspective these business processes are nothing but orchestration of a lot of underlying services (Haller, 2011). Most enterprise systems have complex Service Oriented Architectures(SOA) to achieve this purpose. These services are driven by data in the back-end and the decision (either automated or manual) is carried out based on the data. Better decisions in businesses can be made with better data. This is where the IoT comes into the picture. Most industries like manufacturing, logistics, retail, service management, energy, public security and insurance depend a lot on data for their business processes. IoT enables significant improvements in existing business models or even makes way for new business models (Haller, 2011).
+ 
+Enterprise solutions that are built to involve IoT, provide industries the required platform needed to generate data-driven intelligence from connected things, people and devices. Connecting a business with the new generation of 	internet-enabled devices in the cloud will transform the existing business processes to make effective and efficient business decisions and enhance customer experience. SAP – the enterprise systems giant – says that there are billions of devices connecting a billion people today. This network of devices that is connecting people can be used to transform the businesses.
+ 
+In order to seamlessly integrate IoT into business processes, we must have service enabled IoT resources. This would require the actual physical sensors and actuators to talk to the underlying services of a business process (Haller, 2011). A solid well designed, standard and easy to use Machine to Machine/IoT platform that provides basis for simplified management of IoT resources and integrates it with the services should be built (Bi, 2014). Machine to machine communication involves a wide variety of interconnected distributed devices with heterogeneous back end systems. This distributed system has grown complexly due to the heterogeneity and lack of standardization. A solution involving such a system requires a lot of collaboration and inter-operable network for data transmission and processing from sensor/actuator terminals to the servers and storage of an enterprise (Bi, 2014). With more and more devices being connected every day all processes involving machines can be made more conscious by tracking every context change in a determined environment.
+
+There are different properties that need to be considered while modeling a process that involves IoT services. Firstly the model should provide a means to handle complex event patterns. In the real world unexpected events may occur, which will affect the inter-service communication and their orchestration. Secondly, the model should give importance to the location – both the orion of data (e.g. temperature of a particular machine) and the target system, to which the data is delivered to. Finally it should be considered that IoT services are highly unreliable. In a situation where a IoT device is transmitting stream of data, relevant information and event must be extracted in real time (Haller, 2011). Keeping in mind the above mentioned points, modeling an IoT aware business process would require a lot of engineering, deployment and configuration of middleware, as well as some custom development (Haller, 2011). However to avoid these significant efforts, companies are coming up with methods to use well established standard techniques like Business Process Modeling (BPM) to deploy IoT aware business processes (Haller, 2011).
+
+Although the idea of using BPM in IoT aware solutions looks good, there are quite a few challenges that we must address. In any real world scenario, IoT brings in a lot of events that occur at a wide range of probability (Haller, 2011). Probability of some events occurring might be 0 and some might be 1. Modeling such events into a process is cumbersome and increases the complexity of the business service making it difficult to understand. Also we should worry about the Quality of Information (QoI) of events coming from the real world (from sensors). They introduce some degree of unreliability and uncertainty into the process. Finally any IoT aware process will be highly distributed. So the modeled process should also execute in a decentralized fashion but monitoring of the process should be centralized (Haller, 2011). 
+
+Enterprise solution providers are trying to overcome these challenges to see a wider deployment of IoT technologies so that organizations can get benefits from IoT aware processes. Let us have a quick look at some real world IoT aware business processes and how they are helping their respective organizations.
+
+The IoT World Forum is a global event where IoT solutions are showcases by various companies. Last year(2014) Steve Lucas of SAP in his keynote showcased a solution of Smart Vending using IoT and SAP Hana Cloud platform. A vending machine placed at the edge of the network can serve the retail industry in a big way. The vending machine serves as a distribution point. The sensors (e.g. temperature and people sensors) attached to the vending machine collect a lot of data from the environment and recommend purchasable items to individual based on their profile. Apart from that, since the vending machine is connected to the network, it can be linked to the Inventory application of the retailer, so the retailer gets to know which vending machine at which location should be replenished with which item. To extend the process, the same data from the vending machines can be used to look up which replenishment truck is close to a vending machine and send a notification to the driver of the truck informing him to replenish the vending machine close to him. Finally the data from the vending machine can be used by the retailer in their business intelligence application (IoTWF, 2014).
+
+IoT is here to stay and grow bigger and better. A day is not far when the devices are talking to eachother more that the people. Using this growing network of devices to bring innovations in enterprise solutions will drive businesses in the near future.
+
+
+<u><b>References:</b></u>
+
+Haller, Stephan, and Carsten Magerkurth. "The real-time enterprise: Iot-enabled business processes." IETF IAB Workshop on Interconnecting Smart Objects with the Internet. 2011.
+
+Bi, Zhuming, Li Da Xu, and Chengen Wang. "Internet of Things for enterprise systems of modern manufacturing." Industrial Informatics, IEEE Transactions on 10.2 (2014): 1537-1546.
+
+

@@ -14,8 +14,7 @@ Installing a software or package in unix is always a easy job. Once you know wha
 
 The first package I installed on my Ubuntu system was Skype(what else you use a ubuntu system for ;P). These are the commands that I used to do it..
 
-bc.
-sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+bc. sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
 sudo apt-get update 
 sudo apt-get install skype
 

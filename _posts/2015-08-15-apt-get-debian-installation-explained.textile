@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 	APT and Debian/Ubuntu installation process
+title: 	APT - Debian/Ubuntu software installation process explained
 ---
 
 h1. {{ page.title }}

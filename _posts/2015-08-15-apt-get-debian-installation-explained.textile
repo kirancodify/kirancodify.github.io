@@ -1,0 +1,50 @@
+---
+layout: post
+title: 	APT and Debian/Ubuntu installation process
+---
+
+h1. {{ page.title }}
+<br>
+
+p(meta). Aug 15 2015 - Helsinki
+
+<br>
+
+Installing a software or package in unix is always a easy job. Once you know what software to install, just search for the Stackoverflow version on Installing <software name>. Copy and paste the commands and Woohoo!!.. there goes a train of lines as if you are in The Matrix and the software package is installed.
+
+The first package I installed on my Ubuntu system was Skype(what else you use a ubuntu system for ;P). These are the commands that I used to do it..
+
+bc..
+sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+sudo apt-get update 
+sudo apt-get install skype
+
+p. Lets see what each line is doing. In the first line, @add-apt-repository@ adds a repository string to the @/etc/apt/sources.list@ file. The @$(lsb_release -sc)@ is a command in itself wrapped into a variable. So the output of the command will be code name of the Linux Standard Base(lsb) release (E.g: Trusty, wheezy, jessie etc). "Partner" at the end of the command implies the software is provided by a Canonical's 'partner' repository. Meaning this software "Skype" is not part of Ubuntu but provided by Canonical and the respective vendors as a service to Ubuntu users.
+
+The second command @apt-get update@ will basically get the information about the latest version of packages and their dependencies from the repositories that were added to the sources.list file.This "updating" can happen from the repository to the local system. Finally the @apt-get install@ will install the application.
+
+Now let us see an other example. Installing MongoDB on Ubuntu requires the following commands..
+
+bc..
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
+echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/10gen.list
+sudo apt-get update
+sudo apt-get install mongodb-10gen
+
+p. To ensure package consistency and authenticity, package management tools like apt or dpkg would require that distributors sign their packages with GPG keys. @apt-key@ is used to manage the list of keys to authenticate the packages being installed. @adv --recv@ is used to download the public key from the @--keyserver <servername>@. The downloaded keys are stored in @/etc/apt/trusted.gpg@. The key list can be seen using the command @sudo apt-key list@.
+
+The second command creates a list file for MongoDB in sources.list.d directory. The last 2 commands are same as they were explained in the first example.
+
+One common thing that is seen in all commands is @apt@. APT stands for Advanced Package Tool. Linux has two major package managers - apt and dpkg(Debian Package tool). Package mangers helps manage softwares in a linux system better. These are simillar to the 'add-remove software' feature available in the control panel of Windows. There are a few frontend package managers like synaptic, gnome-apt, aptitude etc. The sources.list file lists all the repositories from where packages are installed. These distribution repositories may be a server on the web, a cdrom or a mounted file system.
+
+bc..
+#Form a server
+deb http://ftp.us.debian.org/debian/ wheezy main
+#From a CD-rom
+deb cdrom:[Debian GNU/Linux 7.0.0 _Wheezy_ - Official amd64 CD Binary-1 20130$
+#From an .iso image mounted to a file system
+deb file:/mnt/mounted-cd/ wheezy main contrib
+
+p. For thirdparty repositories, the source list is available in /etc/sources.list.d directory. The GPG database holds the public keys for the repositories
+
+dpkg also can be used to manage software. Additionally dpkg provides some information about the packages like package states (Eg installed, unpacked, not-installed), selection states and flags. dpkg-deb version of dpkg can be used to construct debian packages.

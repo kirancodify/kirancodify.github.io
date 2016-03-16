@@ -24,8 +24,7 @@ The second command @apt-get update@ will basically get the information about the
 
 Now let us see an other example. Installing MongoDB on Ubuntu requires the following commands..
 
-bc..
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
+bc. sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
 echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/10gen.list
 sudo apt-get update
 sudo apt-get install mongodb-10gen
@@ -36,8 +35,7 @@ The second command creates a list file for MongoDB in sources.list.d directory. 
 
 One common thing that is seen in all commands is @apt@. APT stands for Advanced Package Tool. Linux has two major package managers - apt and dpkg(Debian Package tool). Package mangers helps manage softwares in a linux system better. These are simillar to the 'add-remove software' feature available in the control panel of Windows. There are a few frontend package managers like synaptic, gnome-apt, aptitude etc. The sources.list file lists all the repositories from where packages are installed. These distribution repositories may be a server on the web, a cdrom or a mounted file system.
 
-bc..
-#Form a server
+bc. #Form a server
 deb http://ftp.us.debian.org/debian/ wheezy main
 #From a CD-rom
 deb cdrom:[Debian GNU/Linux 7.0.0 _Wheezy_ - Official amd64 CD Binary-1 20130$

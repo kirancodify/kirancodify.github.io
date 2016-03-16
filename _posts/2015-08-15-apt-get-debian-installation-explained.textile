@@ -10,7 +10,7 @@ p(meta). Aug 15 2015 - Helsinki
 
 <br>
 
-Installing a software or package in unix is always a easy job. Once you know what software to install, just search for the Stackoverflow version on Installing <software name>. Copy and paste the commands and Woohoo!!.. there goes a train of lines as if you are in The Matrix and the software package is installed.
+Installing a software or package in unix is always an easy job. Once you know what software to install, just search for the *Stackoverflow* post on Installing *software name*. Copy and paste the commands and Woohoo!!.. there goes a train of lines as if you are in *The Matrix* and the software package is installed.
 
 The first package I installed on my Ubuntu system was Skype(what else you use a ubuntu system for ;P). These are the commands that I used to do it..
 

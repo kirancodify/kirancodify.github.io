@@ -6,7 +6,7 @@ title: Call for participation -NetRadar-India project
 h1. {{ page.title }}
 <br>
 
-p(meta). Feb 8 2016 - Helsinki
+p(meta). Jan 8 2016 - Helsinki
 <br>
 
 h3. TL;DR:

@@ -14,7 +14,7 @@ h3. TL;DR:
 NetRadar-India is a crowdsourced user study, to analyze the technology dependent deficiencies in the mobile network infrastructure. To know more about how to participate, please visit our <a href="http://netradar-india.github.io/">website</a>.
 
 
-h2. About:
+h3. About:
 
 Internet connectivity around the world is far from uniform, especially when Internet is emerging as one of the fundamental civil rights in developing nations, just like their so-called developed counterparts. In the case of India, a semi-developed (rather than developing) nation, the technology penetration is not uniform across the regions where the disparity is evident in the infrastructure, cost of access and telecom services to provide Internet facilities among different economic classes. To gauge where we stand in leaderboards of emerging technologies, it is very crucial to analyze the variety of connectivity, and how the technology is evolving. The understanding of global Internet experience and exposure plays a key role when our mission is to ensure that the Internet is for everyone.
 
@@ -24,7 +24,7 @@ In order to asses the state of mobile networks in India and its readiness in ado
 
 Leveraging open and free softwares/standards, and the community’s participation in campaigns against Net Neutrality in recent past has brought a tremendous impact. In the same realm, we expect the community members to join us to propose new solutions/improvements for emerging digital India through this project.
 
-h2. How to participate in NetRadar-India project?
+h3. How to participate in NetRadar-India project?
 
 Participating in this project is as simple as downloading the Netradar App on your mobile phones and following the simple instructions provided here, so that the app can take the relevant measurements. To know more, please visit the project <a href="http://netradar-india.github.io/">website</a>.
 

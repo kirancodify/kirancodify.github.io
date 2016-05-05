@@ -13,7 +13,6 @@ h3. TL;DR:
 
 NetRadar-India is a crowdsourced user study, to analyze the technology dependent deficiencies in the mobile network infrastructure. To know more about how to participate, please visit our <a href="http://netradar-india.github.io/">website</a>.
 
-
 h3. About:
 
 Internet connectivity around the world is far from uniform, especially when Internet is emerging as one of the fundamental civil rights in developing nations, just like their so-called developed counterparts. In the case of India, a semi-developed (rather than developing) nation, the technology penetration is not uniform across the regions where the disparity is evident in the infrastructure, cost of access and telecom services to provide Internet facilities among different economic classes. To gauge where we stand in leaderboards of emerging technologies, it is very crucial to analyze the variety of connectivity, and how the technology is evolving. The understanding of global Internet experience and exposure plays a key role when our mission is to ensure that the Internet is for everyone.
